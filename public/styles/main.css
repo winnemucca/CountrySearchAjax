@@ -1,0 +1,19 @@
+body {
+	background: wheat;
+}
+
+
+
+.countryInfo:nth-child(even) {
+	background: black;
+	color: wheat;
+	padding-bottom: 5px;
+
+}
+
+.countryInfo li {
+	display: inline-block;
+	float: left;
+	padding: 5px;
+	list-style-type: none;
+}

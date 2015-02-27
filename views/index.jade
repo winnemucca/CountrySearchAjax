@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	h1 Ajax countries
+	.container
+		.row
+			form(action="search",method="post")
+				input.countrySearch(type="text", name="countrySearch")
+				input.submission(type="submit")
+		.row
+			button.load-countries.btn.btn-primary Get Countries
+			.countries-div
